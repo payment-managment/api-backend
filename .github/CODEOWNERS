@@ -1,11 +1,11 @@
 # Default: backend owns backend code
-* @payment-management/backend
+* @payment-managment/backend
 
 # Authentication routes — backend + leads
-src/routes/auth/ @payment-management/backend @payment-management/lead
+src/routes/auth/ @payment-managment/backend @payment-managment/lead
 
 # Database migrations — leads must review
-migrations/ @payment-management/lead
+migrations/ @payment-managment/lead
 
 # CI / workflows
-.github/ @payment-management/lead
+.github/ @payment-managment/lead
