@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
-    "lint": "eslint src --ext .js",
+    "lint": "eslint . --ext .js",
     "test": "jest --runInBand"
   },
   "repository": {
@@ -24,5 +24,8 @@
     "express": "^5.2.1",
     "mysql2": "^3.22.3",
     "nodemon": "^3.1.14"
+  },
+  "devDependencies": {
+    "eslint": "^10.2.1"
   }
 }
